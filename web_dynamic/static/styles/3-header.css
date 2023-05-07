@@ -1,11 +1,28 @@
+/*styling my hbnb*/
 header {
     background: white;
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    position: relative;
 }
+
 header .logo {
     background: url("../images/logo.png") no-repeat;
     left: 20px;
     height: 100%;
+}
+
+.available {
+        background-color: #ff545f !important;
+}
+
+#api_status {
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+        position: absolute;
+	right: 30px;
+        top: 20%;
+	background-color: #cccccc;
 }
